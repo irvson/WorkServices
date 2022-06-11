@@ -1,0 +1,104 @@
+ .btn{
+     border-style: none;
+     height: 40px;
+     padding: 6px 12px;
+     background-color: black;
+     color: bisque;
+     font-size: 1rem;
+     cursor: pointer;
+    transition: box-shadow  .6s ease;
+ }
+
+
+ .btn.blue{
+    background-color:#1FB6FF;
+}
+.btn.blue:hover{
+    background-color: #00ffff;
+}
+
+
+.btn.red{
+    background-color:#FF4949;
+}
+
+.btn.red:hover{
+    background-color:#a52a2a;
+}
+
+
+ .btn.darkgren{
+    background-color:#006400;
+}
+
+
+
+
+.btn:hover{
+    background-color: #008000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px) {
+    #page-home {
+      align-items: center;
+      text-align: center;
+    }
+  
+    #page-home header {
+      margin: 48px auto 0;
+    }
+  
+    #page-home  main {
+      align-items: center;
+    }
+  
+    #page-home  main h1 {
+      font-size: 42px;
+    }
+  
+    #page-home main p {
+      font-size: 24px;
+    }
+  }
+
+

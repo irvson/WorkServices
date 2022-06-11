@@ -1,0 +1,43 @@
+.table-list{
+width: 100%;
+user-select: none;
+text-align: left;
+}
+
+.table-list th{
+    height: 50px;
+    background-color: #343131;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    color: azure;
+}
+
+.table-list td{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.table-list tbody .margin-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.table-list thead .margin-action{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 50px;
+}
+
+
+
+/* Cor de Fundo para a lista  */
+.table-list th:last-child
+.table-list td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.table-list tr:hover{
+    background-color: #717F7F;
+}
+
